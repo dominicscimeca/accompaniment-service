@@ -16,6 +16,8 @@ repositories {
 }
 
 dependencies {
+	implementation("com.expediagroup:graphql-kotlin-schema-generator:3.0.0-RC7")
+	implementation("com.expediagroup:graphql-kotlin-spring-server:3.0.0-RC7")
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
