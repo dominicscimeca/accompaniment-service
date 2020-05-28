@@ -13,11 +13,3 @@ class AccompanimentServiceApplication
 fun main(args: Array<String>) {
 	runApplication<AccompanimentServiceApplication>(*args)
 }
-
-//class Query {
-//	fun getNumber() = 1
-//}
-//
-//val config = SchemaGeneratorConfig(listOf("org.scimeca.dominic.accompanimentservice"))
-//val queries = listOf(TopLevelObject(Query()))
-//val schema: GraphQLSchema = toSchema(config = config, queries = queries)
