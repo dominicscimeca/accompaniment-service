@@ -6,8 +6,7 @@ phases:
       java: corretto11
   post_build:
     commands:
-      - ./gradlew jar
-      - mv ./build/libs/accompaniment-service-0.0.1-SNAPSHOT.jar ./accompaniment-service.jar
+      - ./gradlew build
 artifacts:
   files:
-    - ./accompaniment-service.jar
+    - build/libs/accompaniment-service-0.0.1-SNAPSHOT.jar
