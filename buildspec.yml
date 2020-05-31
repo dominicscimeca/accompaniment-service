@@ -14,3 +14,4 @@ artifacts:
   files:
     - accompaniment-service.jar
     - privacy/policy.html
+    - .ebextensions/options.config
