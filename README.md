@@ -16,6 +16,8 @@ GraphQL Endpoint
 query {
   randomQuote {
     text
+    author
+    source
   }
 }
 ```
